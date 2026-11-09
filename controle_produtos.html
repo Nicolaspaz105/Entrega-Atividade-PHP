@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>Cadastro de Produtos</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body class="cadastro-body">
+        <div class="produtos">
+        <form action="cadastrar.php" method="POST" name="cad_produto">
+            
+                <h1><legend>📦Cadastro de Produtos</legend></h1>
+                    
+                <label class="lab1">Descrição </label>
+                <label class="lab1">Categoria </label>
+                <label class="lab1">Valor.Compra(R$) </label> 
+                <label class="lab1">Valor.Venda(R$) </label> 
+                <label class="lab1">Qtd.Estoque </label><br>
+                
+                <input type="text" name="txt_descricao" class="lab2">
+                <select name="txt_categoria" class="lab2">
+                    <option value="info">Informática</option>
+                    <option value="auto">Peça de Automovéis</option>
+                    <option value="casa">Móveis</option>
+                    <option value="infantil">Brinquedos</option>
+                    <option value="etc.">Outros</option>
+                </select>
+                <input type="text" name="txt_compra" class="lab2" value="R$">
+                <input type="text" name="txt_venda" class="lab2" value="R$">
+                <input type="text" name="txt_estoque" class="lab2"><BR>
+        
+                <BR><input class="btn_cadastrar" type="submit" value="CADASTRAR PRODUTO">
+                <input class="btn_vender" type="reset" value="VENDER PRODUTO">
+                
+
+
+                <h1><legend>📋Inventário</legend></h1>
+                <div class="lab3">
+                    <label>Descrição</label> 
+                    
+                    <label>Categoria</label>
+
+                    <label>Venda</label>
+
+                    <label>Lucro Unit.</label>
+
+                    <label>Estoque</label>
+
+                    <label>Ações</label>
+                </div>
+
+        </form>
+        </div>
+
+    </body>
+
+
+
+
+
+
+</html>

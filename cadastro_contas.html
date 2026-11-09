@@ -1,0 +1,47 @@
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Tela de Cadastro</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+
+<body class="cadastro-body" background="white" style="background-size: cover; background-repeat: no-repeat; background-attachment: fixed;">	
+	
+	<div class="cadastro-container">
+		<form action="gravar.php" method="POST" name="cadastro">
+			<table width="100%" border="0">
+				<tr>
+					<td align="center" colspan="4">
+						<h1 style="font-size: 40px; margin-top: 0; margin-bottom: 5px;">CADASTRO DE CONTAS</h1>
+					</td>
+				</tr>
+				
+				<tr>
+					<td width="12%" align="left"><b>Usuário:</b></td>
+					<td colspan="3" align="left"><input type="text" name="txt_usuario" maxlength="100"></td>
+				</tr>
+			
+				<tr>
+					<td align="left"><b>Email:</b></td>
+					<td colspan="3" align="left"><input type="text" name="txt_email" maxlength="100"></td>
+				</tr>
+
+				<tr>
+					<td align="left"><b>Senha:</b></td>
+					<td align="left"><input type="text" name="txt_senha" maxlength="10"></td>
+					<td align="right"><b>Confirmar Senha:</b></td>    
+					<td align="left"><input type="password" name="txt_rsenha" maxlength="15"></td>
+				</tr>
+				
+				<tr>
+					<td colspan="4" align="right" style="padding-top: 10px;">
+						<input type="submit" colspan="4" class="btn-enviar" align="right" style="padding-top: 10px;" value="CRIAR CONTA">
+					</td>
+				</tr>
+			</table>
+		</form>
+	</div>
+
+</body>
+</html>
